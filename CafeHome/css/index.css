@@ -1,0 +1,85 @@
+
+/*main*/
+/*banner*/
+.banner img{
+    width:100%;
+}
+.cafe_intro{
+    background:#1A1C1E;
+    color:#fff;
+    display:flex;
+    justify-content:space-around;
+    height:400px;
+    padding-top:80px;
+}
+.cafe_intro .col{
+    text-align:center;
+    line-height:50px;
+}
+
+/*menu*/
+.menu{
+    width:100%;
+    text-align:center;
+    background:#fff;
+}
+.menu>h1{
+    padding:70px 0;
+}
+.menu .category_menu{
+    padding:0 20px 100px 60px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    transition:all .4s linear;
+}
+
+.menu .category_menu div img{
+    width:340px;
+}
+
+.menu .category_menu div p a{
+    color:#0E9E82;
+    font-weight:bold;
+    font-size:20px;
+}
+.menu .category_menu div{
+    position:relative;
+    margin:10px 0;
+
+}
+.menu .category_menu div p{
+    width:100%;
+    height:198.33px;
+    background:rgba(0,0,0,0.5);
+    line-height:198.33px;
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+    transition:all .8s linear;
+}
+.menu .category_menu div:hover p{
+    display:block;
+}
+.menu .category_menu div p a:hover{
+    text-decoration: underline;
+}
+/*mtnIntro*/
+.mtnIntro{
+    padding:80px;
+    background:#F1F3F5;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    color:#8A8C8E;
+}
+.mtnIntro p{
+    line-height:2em;
+    margin:0 40px;
+}
+.mtnIntro img{
+    width:480px;
+    height:280px;
+}
+

@@ -1,0 +1,20 @@
+/*crumbs*/
+.main .container{
+    background:#fff;
+    padding:20px 40px;
+}
+.crumbs li{
+    display:inline-block;
+    margin-right:10px;
+}
+.crumbs li a{
+    color:#fff;
+    font-size:16px;
+    background:#0AAC8E;
+    border-radius:5px;
+    padding:7px 20px ;
+    transition:all .2s linear;
+}
+.crumbs li a:hover{
+    background:#393939;
+}

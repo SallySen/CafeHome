@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>咖啡首页</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!--页头部分：导航条-->
+    <div class="header">
+        <div class="container">
+            <ul class="navbar">
+                <li class="active"><a href="index.html">咖啡之家</a></li>
+                <li><a href="#">餐饮分类</a></li>
+                <li><a href="#">店内概览</a></li>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--主体部分-->
+    <div class="main">
+        <div class="container">
+            <div>
+                <!--横幅广告-->
+                <div class="banner"><img src="img/main.jpg"></div>
+                <!--介绍-->
+                <div class="cafe_intro">
+                    <div class="col">
+                        <h2>闻香</h2>
+                        <p>唇齿停留的香气<br>
+                            蠢蠢欲动<br>
+                            让时间定格在此
+                        </p>
+                    </div>
+                    <div class="col">
+                        <h2>寻觅</h2>
+                        <p>周一-周五: 9:00 - 21:00<br>
+                            周六-周日: 9:00 - 2:00<br>
+                            无名街47号不见不散
+                        </p>
+                    </div>
+                    <div class="col">
+                        <h2>探索</h2>
+                        <p>进口咖啡豆原料<br>
+                            10分钟小火烹煮<br>
+                            你值得拥有
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+                <h1>Menu</h1>
+                <div class="category_menu">
+                    <div>
+                        <img src="img/1.jpg">
+                        <p class="list">
+                            <a href="#">精品咖啡</a>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="img/2.jpg">
+                        <p class="list">
+                            <a href="#">特制饮品</a>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="img/3.jpg">
+                        <p class="list">
+                            <a href="#">精致甜点</a>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="img/4.jpg">
+                        <p class="list">
+                            <a href="#">西式套餐</a>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="img/5.jpg">
+                        <p class="list">
+                            <a href="#">中式套餐</a>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="img/6.jpg">
+                        <p class="list">
+                            <a href="#">下午茶套餐</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="mtnIntro">
+                <p> 风味非常浓郁，香、苦、醇厚，带有少许的甜味。口感丰富扎实，有着令人愉悦的酸味。气味香醇，酸度适中，甜味丰富十分耐人寻味，适合深度烘焙，散发出浓厚的香味。 曼特宁一直都以最独特的苦表现它最独特的甜，仿佛生活。<br><br>
+                    初尝它时，我们或许为之咋舌，放入再多的糖也掩不了那种苦味，曼特宁跳跃的微酸混合着最浓郁的香味，让你轻松就能体味到温和馥郁中的活泼因子，它那卓而不凡的口感迷惑了许多追求者。曼特宁口味浓重，带有浓郁的醇度和馥郁而活泼的动感，不涩不酸，醇度、苦度可以表露无遗。
+                </p>
+                <div>
+                    <img src="img/mtn.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--页尾部分-->
+    <div class="footer">
+        <div class="container">© 2018 CafeHome Corporation. All rights reserved.</div>
+    </div>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script>
+        $('.navbar a').hover(function(){
+            $(this).parent().addClass('active').siblings('.active').removeClass('active');
+        },function(){})
+    </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>店内概览</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/archive.css">
+</head>
+<body>
+    <!--页头部分：导航条-->
+    <div class="header">
+        <div class="container">
+            <ul class="navbar">
+                <li ><a href="index.html">咖啡之家</a></li>
+                <li><a href="#">餐饮分类</a></li>
+                <li class="active"><a href="#">店内概览</a></li>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--主体部分-->
+    <div class="main">
+        <div class="container">
+            <ul class="crumbs">
+                <li>
+                    <a href="index.html">咖啡之家</a>
+                </li>
+                <li><a href="#">部落格</a></li>
+            </ul>
+            <div>
+                <h1>店内概览</h1>
+                <div class="archive-intro">
+                    <div>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--页尾部分-->
+    <div class="footer">
+        <div class="container">© 2018 CafeHome Corporation. All rights reserved.</div>
+    </div>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script>
+        $('.navbar a').hover(function(){
+            $(this).parent().addClass('active').siblings('.active').removeClass('active');
+        },function(){})
+    </script>
+</body>
+</html>
